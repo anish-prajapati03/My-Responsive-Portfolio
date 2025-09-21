@@ -1,0 +1,210 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    /* Match to navbar height */
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: #fff;
+    margin-top: -23px;
+    box-sizing: border-box;
+}
+
+.intro {
+    color: #ccc;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff7eb3, #ff758c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #ccc;
+    margin-top: 0.5rem;
+}
+
+h2 span {
+    color: #00bfff;
+}
+
+.description {
+    max-width: 600px;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #bbb;
+    padding: 0 1rem;
+}
+
+.home-buttons {
+    display: flex;
+    gap: 1rem;
+    margin: 1.5rem 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: opacity 0.3s ease;
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #8a2be2, #00bfff);
+    color: white;
+}
+
+.btn-secondary {
+    background: white;
+    color: #8a2be2;
+    border: 2px solid #8a2be2;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.home-icons {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home-icons a {
+    color: #fff;
+    background: #222;
+    padding: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-icons a:hover {
+    transform: scale(1.1);
+}
+
+.scroll-down {
+    font-size: 2rem;
+    margin-top: 1rem;
+    animation: bounce 2s infinite;
+    color: #ccc;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(8px);
+    }
+}
+
+/* ===== Responsive Styles ===== */
+@media (max-width: 992px) {
+    h1 {
+        font-size: 3.2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .description {
+        font-size: 1rem;
+        max-width: 90%;
+    }
+
+    .btn {
+        padding: 0.65rem 1.2rem;
+        font-size: 0.9rem;
+    }
+
+    .home-icons {
+        font-size: 1.3rem;
+        gap: 0.8rem;
+    }
+
+    .scroll-down {
+        font-size: 1.8rem;
+    }
+}
+
+/* Match navbar height and fix possible overlap/white space */
+@media (max-width: 768px) {
+    .home {
+        padding-top: 65px;
+        /* Adjust to your actual mobile navbar height */
+        margin-top: -35px;
+    }
+}
+
+@media (max-width: 600px) {
+    .home {
+        height: auto;
+        min-height: 100vh;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .description {
+        font-size: 0.95rem;
+        max-width: 100%;
+        margin-top: 0.8rem;
+    }
+
+    .home-buttons {
+        gap: 0.8rem;
+    }
+
+    .btn {
+        padding: 0.6rem 1rem;
+        font-size: 0.85rem;
+        width: 100%;
+        max-width: 220px;
+    }
+
+    .home-icons {
+        font-size: 1.1rem;
+        gap: 0.6rem;
+        margin: 0.8rem 0;
+    }
+
+    .scroll-down {
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+    }
+}

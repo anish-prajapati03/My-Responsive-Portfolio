@@ -1,0 +1,176 @@
+.footer {
+    background-color: #0f172a;
+    color: #d1d5db;
+    padding: 3rem 2rem;
+    box-sizing: border-box;
+}
+
+/* Footer main content: desktop layout */
+.footer-content {
+    display: flex;
+    flex-wrap: nowrap; /* keep in a row on large screens */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+/* Titles and text */
+.footer-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.footer-title .highlight {
+    color: #60a5fa;
+}
+
+.footer-subtitle {
+    font-size: 1rem;
+    color: #a1a1aa;
+    margin-top: 0.5rem;
+    text-align: left;
+    max-width: 300px;
+}
+
+/* Social icons container */
+.footer-icons {
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons a {
+    background-color: #1e293b;
+    padding: 0.8rem;
+    border-radius: 50%;
+    color: #e5e7eb;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease;
+    text-decoration: none;
+}
+
+.footer-icons a:hover,
+.footer-icons a:focus {
+    transform: scale(1.1);
+    background-color: #334155;
+    outline: none;
+}
+
+/* Back to top button */
+.back-to-top button {
+    background: linear-gradient(to right, #a855f7, #3b82f6);
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.back-to-top button:hover,
+.back-to-top button:focus {
+    opacity: 0.9;
+    outline: none;
+}
+
+/* Horizontal rule */
+hr {
+    border: none;
+    border-top: 1px solid #334155;
+    margin: 0;
+}
+
+/* Footer bottom bar */
+.footer-bottom {
+    font-size: 0.9rem;
+    color: #9ca3af;
+    display: flex;
+    justify-content: space-between; /* left and right aligned */
+    align-items: center;
+    margin-top: 1.5rem;
+    flex-wrap: nowrap;
+}
+
+.heart {
+    color: #ef4444;
+}
+
+/* ===== Responsive styles ===== */
+
+/* Medium screens (tablets and smaller desktops) */
+@media (max-width: 992px) {
+    .footer-content {
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-title,
+    .footer-subtitle {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .footer-subtitle {
+        margin-top: 0.25rem;
+    }
+
+    .footer-icons {
+        justify-content: center;
+        flex: 1 1 100%;
+    }
+
+    .back-to-top {
+        flex: 1 1 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .footer-bottom {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+/* Small screens (mobile phones) */
+@media (max-width: 600px) {
+    .footer {
+        padding: 2rem 1.5rem;
+    }
+
+    .footer-title {
+        font-size: 1.5rem;
+    }
+
+    .footer-subtitle {
+        font-size: 0.9rem;
+        max-width: 100%;
+    }
+
+    .footer-icons a {
+        padding: 0.65rem;
+        font-size: 1.1rem;
+    }
+
+    .back-to-top button {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .footer-bottom {
+        font-size: 0.85rem;
+        flex-direction: column;
+        gap: 0.3rem;
+    }
+}

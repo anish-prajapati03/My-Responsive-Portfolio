@@ -1,0 +1,152 @@
+/* Base styles */
+.about {
+    background: linear-gradient(to right, #2d0b59, #4e0c76);
+    padding: 80px 10%;
+    color: white;
+    box-sizing: border-box;
+}
+
+.about-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #7fd8f2;
+    position: relative;
+}
+
+.about-title::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 3px;
+    background-color: #4dd0e1;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.about-text {
+    flex: 1 1 50%;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #ddd;
+}
+
+.about-text .highlight {
+    color: #00e5ff;
+    font-weight: bold;
+}
+
+.about-cards {
+    flex: 1 1 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.about-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1.2rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.about-card:hover {
+    transform: translateY(-5px);
+}
+
+.about-icon {
+    font-size: 2rem;
+    color: #b388ff;
+    background-color: #1e1e2f;
+    padding: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+/* Responsive styles */
+
+/* Medium screens (tablets) */
+@media (max-width: 992px) {
+    .about {
+        padding: 60px 8%;
+    }
+
+    .about-title {
+        font-size: 2.2rem;
+        margin-bottom: 30px;
+    }
+
+    .about-container {
+        gap: 1.5rem;
+    }
+
+    .about-text {
+        flex: 1 1 100%;
+        font-size: 0.95rem;
+    }
+
+    .about-cards {
+        flex: 1 1 100%;
+        flex-direction: row;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .about-card {
+        flex: 1 1 calc(50% - 0.5rem);
+        padding: 1rem;
+    }
+}
+
+/* Small screens (mobile phones) */
+@media (max-width: 600px) {
+    .about {
+        padding: 40px 5%;
+    }
+
+    .about-title {
+        font-size: 1.8rem;
+        margin-bottom: 25px;
+    }
+
+    .about-text {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-text,
+    .about-cards {
+        flex: 1 1 100%;
+    }
+
+    .about-cards {
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .about-card {
+        flex: 1 1 100%;
+        padding: 1rem;
+    }
+
+    .about-icon {
+        font-size: 1.8rem;
+        padding: 8px;
+    }
+}

@@ -1,0 +1,245 @@
+/* Root container for the Projects section */
+.projects-section {
+    background: linear-gradient(to right, #3a0ca3, #7209b7);
+    padding: 4rem 2rem;
+    min-height: 100vh;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Title & description */
+.projects-section h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #a0e7ff;
+    margin-bottom: 0.5rem;
+}
+
+.projects-section p.section-subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 3rem;
+}
+
+/* Project card grid layout */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Each project card */
+.project-card {
+    background: linear-gradient(to right bottom, #2a0a5c, #3c096c);
+    border-radius: 1.25rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Header: Icon and Title */
+.project-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #ff914d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: white;
+    flex-shrink: 0;
+}
+
+.project-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0.6rem;
+}
+
+/* Description */
+.project-desc {
+    font-size: 1rem;
+    color: #ddd;
+    margin: 0.5rem 0 1.5rem;
+    line-height: 1.6;
+}
+
+/* Tech Stack Label */
+.tech-label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #aaa;
+}
+
+/* Tech Stack tags container */
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    overflow-wrap: break-word;
+}
+
+/* Individual tech tag */
+.tag {
+    background-color: #1e1e2f;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.5rem;
+    font-size: 0.85rem;
+    color: #fff;
+    white-space: nowrap;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Button container */
+.project-links {
+    display: flex;
+    gap: 0.8rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Buttons */
+.btn {
+    padding: 0.6rem 0.9rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+    min-width: 100px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn.code {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffcbf2;
+}
+
+.btn.code:hover {
+    opacity: 0.85;
+}
+
+.btn.live {
+    color: #fff;
+}
+
+.btn.live:hover {
+    opacity: 0.85;
+}
+
+/* Responsive styles */
+
+/* Small devices/mobile */
+@media (max-width: 768px) {
+    .projects-section {
+        padding: 3rem 1.5rem;
+    }
+
+    .projects-section h2 {
+        font-size: 2.2rem;
+    }
+
+    .projects-section p.section-subtitle {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .project-card {
+        padding: 1.2rem;
+    }
+
+    .project-title {
+        font-size: 1.2rem;
+    }
+
+    .project-desc {
+        font-size: 0.95rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .btn {
+        font-size: 0.85rem;
+        padding: 0.5rem 0.8rem;
+        min-width: 90px;
+    }
+}
+
+/* Extra small devices/mobile */
+@media (max-width: 500px) {
+    .project-title {
+        font-size: 1.1rem;
+    }
+
+    .project-desc {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 0.8rem;
+        padding: 0.5rem 0.7rem;
+        min-width: 80px;
+    }
+}
+
+/* Very small screens (phones < 350px width) */
+@media (max-width: 350px) {
+    .projects-section {
+        padding: 2rem 1rem;
+    }
+
+    .projects-grid {
+        gap: 1.2rem;
+    }
+
+    .project-card {
+        padding: 1rem;
+    }
+
+    .project-title {
+        font-size: 1rem;
+    }
+
+    .project-desc {
+        font-size: 0.85rem;
+    }
+
+    .btn {
+        font-size: 0.75rem;
+        padding: 0.4rem 0.6rem;
+        min-width: 70px;
+    }
+
+    .tech-tags {
+        gap: 0.3rem;
+    }
+
+    .tag {
+        font-size: 0.75rem;
+        padding: 0.3rem 0.6rem;
+    }
+}

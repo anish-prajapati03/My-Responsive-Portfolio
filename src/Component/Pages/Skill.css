@@ -1,0 +1,239 @@
+/* === Skills Section Container === */
+.skills {
+    padding: 80px 20px;
+    background: linear-gradient(to right, #1e1e3f, #351755);
+    color: #ffffff;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* === Section Title === */
+.skills-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #9bd4ff;
+}
+
+.skills-subtitle {
+    font-size: 1.1rem;
+    color: #cccccc;
+    margin-bottom: 40px;
+}
+
+/* === Skills Grid Container === */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* === Individual Skill Category Box === */
+.skills-box {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.skills-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* === Skill Label and Progress === */
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+    color: #e0e0e0;
+}
+
+.skill-bar {
+    background-color: #2e2e3e;
+    border-radius: 10px;
+    height: 10px;
+    overflow: hidden;
+}
+
+.skill-progress {
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* === Also Working With Section === */
+.other-skills-section {
+    margin-top: 60px;
+}
+
+.other-skills-title {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    color: #eaeaea;
+}
+
+.other-skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.other-skill {
+    background: linear-gradient(to right, #3a3a8b, #5a229b);
+    color: white;
+    padding: 8px 18px;
+    border-radius: 25px;
+    font-size: 0.95rem;
+    transition: transform 0.2s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    white-space: nowrap;
+}
+
+.other-skill:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #3ab2ff, #9c4de2);
+}
+
+
+/* === Responsive for Tablets and below === */
+@media (max-width: 1024px) {
+    .skills {
+        padding: 60px 15px;
+    }
+
+    .skills-title {
+        font-size: 2.2rem;
+    }
+
+    .skills-subtitle {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    .skills-box {
+        width: 260px;
+        padding: 25px;
+    }
+
+    .skills-box h3 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+
+    .other-skills-title {
+        font-size: 1.3rem;
+        margin-bottom: 18px;
+    }
+
+    .other-skill {
+        font-size: 0.9rem;
+        padding: 7px 16px;
+    }
+}
+
+/* === Responsive for Tablets and mobile (max-width 768px) === */
+@media (max-width: 768px) {
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .skills-box {
+        width: 90%;
+        max-width: 400px;
+        padding: 25px;
+    }
+}
+
+/* === Small devices/mobile phones (max-width 480px) === */
+@media (max-width: 480px) {
+    .skills {
+        padding: 50px 10px;
+    }
+
+    .skills-title {
+        font-size: 2rem;
+    }
+
+    .skills-subtitle {
+        font-size: 0.95rem;
+        margin-bottom: 25px;
+    }
+
+    .skills-box {
+        width: 100%;
+        max-width: 350px;
+        padding: 20px;
+    }
+
+    .skills-box h3 {
+        font-size: 1.3rem;
+        margin-bottom: 12px;
+    }
+
+    .skill-label {
+        font-size: 0.9rem;
+    }
+
+    .other-skills-title {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+
+    .other-skill {
+        font-size: 0.85rem;
+        padding: 6px 14px;
+    }
+}
+
+/* === Very small phones (max-width 360px) === */
+@media (max-width: 360px) {
+    .skills {
+        padding: 40px 8px;
+    }
+
+    .skills-title {
+        font-size: 1.8rem;
+    }
+
+    .skills-subtitle {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+
+    .skills-box {
+        width: 100%;
+        max-width: 300px;
+        padding: 18px;
+    }
+
+    .skills-box h3 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .skill-label {
+        font-size: 0.85rem;
+    }
+
+    .other-skills-title {
+        font-size: 1.1rem;
+        margin-bottom: 12px;
+    }
+
+    .other-skill {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+}

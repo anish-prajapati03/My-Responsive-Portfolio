@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding-top: 90px;
+  /* Adjust if navbar height changes */
+}
+
+.main-content {
+  padding-top: 90px;
+  /* or match navbar height */
+}
