@@ -7,11 +7,12 @@ const Home = () => {
     return (
         <section className="home" id="home">
             <p className="intro"><FaMagic /> Hello, I'm</p>
-            <h1>Anish Prajapati</h1>
-            <h2>Front-End Developer<span>(React)</span></h2>
+            <h1>Anish Prajapti</h1>
+            <h2>Software Developer<span> (React+Django)</span></h2>
             <p className="description">
                 B.Tech student passionate about creating beautiful, responsive web applications.<br />
-                Currently interning at FilterWebs and building innovative projects with the MERN stack.
+                Frontend Developer Intern at FilterWebs, focused on building dynamic and responsive user interfaces.
+                Trained in AI/ML and Django at Softpro India, gaining practical experience in machine learning and backend application development.
             </p>
 
             <div className="home-buttons">

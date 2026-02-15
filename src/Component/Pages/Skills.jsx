@@ -19,8 +19,6 @@ const Skills = () => {
         "Socket.IO",
         "REST APIs",
         "Responsive Design",
-        "Version Control",
-        "Agile Development",
         "Problem Solving",
     ];
 
@@ -41,9 +39,8 @@ const Skills = () => {
 
                 <div className="skills-box">
                     <h3>Backend</h3>
-                    <SkillBar name="Node.js" percent={80} color="#22c55e" />
-                    <SkillBar name="Express.js" percent={75} color="#6b7280" />
-                    <SkillBar name="Python" percent={70} color="#facc15" />
+                    <SkillBar name="Python" percent={85} color="#facc15" />
+                    <SkillBar name="Django" percent={80} color="#22c55e" />
                 </div>
 
                 <div className="skills-box">
@@ -51,7 +48,7 @@ const Skills = () => {
                     <SkillBar name="MongoDB" percent={80} color="#22c55e" />
                     <SkillBar name="MySQL" percent={75} color="#3b82f6" />
                     <SkillBar name="Git" percent={85} color="#ef4444" />
-                    <SkillBar name="Tableau" percent={70} color="#a855f7" />
+                    <SkillBar name="PostgreSQL" percent={70} color="#a855f7" />
                 </div>
             </div>
 

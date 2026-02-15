@@ -7,8 +7,8 @@ const projects = [
         description: 'A comprehensive auction platform featuring real-time bidding, user authentication, role-based access control, and live notifications. Built with modern web technologies for seamless user experience.',
         techStack: ['React', 'Node.js', 'MongoDB', 'Express', 'Socket.IO'],
         icon: '⚡',
-        codeLink: '#',
-        liveLink: '#',
+        codeLink: 'https://github.com/anish-prajapati03/Real-time-Auction-Platform.git',
+        liveLink: 'https://nanbidders.netlify.app/',
         liveColor: 'orange'
     },
     {
@@ -29,15 +29,7 @@ const projects = [
         liveLink: 'https://weatherwebxni.netlify.app/',
         liveColor: 'skyblue'
     },
-    {
-        title: 'AeroMatrix',
-        description: 'A comprehensive airline management solution featuring booking systems, flight management, customer service chatbot, and administrative dashboards for efficient operations.',
-        techStack: ['Java', 'Spring Boot', 'SQL'],
-        icon: '✈️',
-        codeLink: '#',
-        liveLink: '#',
-        liveColor: 'deepskyblue'
-    }
+
 ];
 
 const Projects = () => {

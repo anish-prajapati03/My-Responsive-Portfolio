@@ -13,7 +13,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="navbar-logo">Anish <span>Prajapati</span></div>
+      <div className="navbar-logo">Anish <span>Prajapti</span></div>
       <div className="menu-icon" onClick={toggleMenu}>
         <div className={isOpen ? "bar open" : "bar"}></div>
         <div className={isOpen ? "bar open" : "bar"}></div>

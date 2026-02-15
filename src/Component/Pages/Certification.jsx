@@ -3,36 +3,37 @@ import './Certification.css';
 
 const certifications = [
     {
-        title: 'Deloitte Australia Data Analytics Job Simulation',
-        company: 'Deloitte - via Forage',
-        date: 'June 2025',
+        title: 'Complete Django Web Development Course – Basics to Advance',
+        company: 'GeeksforGeeks',
+        date: '2025',
         description:
-            'Completed a comprehensive Deloitte job simulation involving data analysis and forensic technology',
+            'Successfully completed a 12-week comprehensive Django Web Development course covering backend development from fundamentals to advanced concepts.',
         achievements: [
-            'Completed a Deloitte job simulation involving data analysis and forensic technology',
-            'Created a data dashboard using Tableau',
-            'Used Excel to classify data and draw business conclusions',
+            'Completed 12-week intensive Django web development training',
+            'Learned backend architecture, REST concepts, and database integration',
+            'Built scalable web applications using Django framework',
         ],
-        skills: ['Tableau', 'Excel', 'Data Analysis', 'Forensic Technology', 'Dashboard Creation'],
+        skills: ['Django', 'Python', 'Backend Development', 'Web Development', 'Database Integration'],
         certificateLink:
-            'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_Qk9X2P39ES96gxwKz_1751208246088_completion_certificate.pdf',
+            'https://media.geeksforgeeks.org/courses/certificates/4c9cebad6bb1596cca53d42b5a8f96c6.pdf',
     },
     {
-        title: 'Tata Group Data Analytics Job Simulation',
-        company: 'Tata Group - via Forage',
-        date: 'June 2025',
+        title: 'Agentic AI: From Learner to Builder – Become an AI Agent Architect',
+        company: 'IBM SkillsBuild (in collaboration with CSRBOX)',
+        date: 'July 2025 – August 2025',
         description:
-            'Completed EDA using GenAI to evaluate data quality and risks with advanced AI methodologies',
+            'Completed a 4-week IBM SkillsBuild Project-Based Learning program focused on designing and building AI agents using modern AI concepts and practical implementation.',
         achievements: [
-            'Completed EDA using GenAI to evaluate data quality and risks',
-            'Proposed a no-code predictive model framework for customer delinquency risk',
-            'Designed an AI-powered collection strategy emphasizing ethical AI and automation',
+            'Completed project-based learning on Agentic AI systems',
+            'Learned AI agent architecture and intelligent workflow design',
+            'Gained hands-on experience building AI-driven solutions',
         ],
-        skills: ['GenAI', 'EDA', 'Predictive Modeling', 'Ethical AI', 'Data Quality Assessment'],
+        skills: ['Agentic AI', 'AI Agents', 'Artificial Intelligence', 'Problem Solving', 'AI System Design'],
         certificateLink:
-            'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_Qk9X2P39ES96gxwKz_1751274297733_completion_certificate.pdf', // Replace with actual Tata certificate URL
+            'https://www.linkedin.com/posts/anishprajapati03_ai-agenticai-ibmskillsbuild-share-7366892358828740612-NHK9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFOvJUB77rBfvRocxNCYsv5JApkgqEIKrI',
     },
 ];
+
 
 const Certifications = () => {
     return (
@@ -92,10 +93,10 @@ const Certifications = () => {
             <div className="learning-note">
                 <h3>Continuous Learning</h3>
                 <p>
-                    These industry simulations from leading companies like Deloitte and Tata Group have enhanced my data
-                    analytics skills and provided hands-on experience with real-world business challenges. I'm committed to
-                    staying current with emerging technologies and industry best practices.
+                    My certifications from GeeksforGeeks and IBM SkillsBuild enhanced my skills in Django development and AI systems through
+                    practical, project-based learning, preparing me to build real-world intelligent applications.
                 </p>
+
             </div>
         </section>
     );

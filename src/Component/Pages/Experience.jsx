@@ -8,16 +8,18 @@ const Experience = () => {
         <section id="experience" className="experience-section">
             <h2 className="section-title">Experience</h2>
             <p className="section-subtitle">
-                My journey in professional web development and the impact I've made
+                My journey in professional development, AI learning, and real-world project experience
             </p>
 
+
+            {/* FILTERWEBS EXPERIENCE */}
             <div className="experience-card">
                 <div className="experience-header">
                     <div className="company-icon">
                         <i className="fa-solid fa-building" />
                     </div>
                     <div className="role-info">
-                        <h3>Front-End Developer Intern</h3>
+                        <h3>Frontend Developer Intern</h3>
                         <p className="company">FilterWebs</p>
                     </div>
                     <div className="experience-meta">
@@ -32,25 +34,19 @@ const Experience = () => {
 
                 <div className="experience-body">
                     <p>
-                        Working as a Front-End Developer Intern, focusing on React
-                        development and creating responsive web applications.
+                        Worked as a Frontend Developer Intern, focusing on building responsive
+                        and interactive web applications using React and modern web technologies.
                     </p>
 
                     <h4>
                         <FaCode /> Key Contributions & Achievements
                     </h4>
                     <ul className="achievements">
-                        <li>Developed responsive web apps using React and JavaScript.</li>
-                        <li>
-                            Collaborated with teams to deliver high-quality UI/UX designs.
-                        </li>
-                        <li>
-                            Followed best practices for code organization and architecture.
-                        </li>
-                        <li>Worked with REST APIs for frontend-backend integration.</li>
-                        <li>
-                            Contributed to user experience through intuitive design.
-                        </li>
+                        <li>Developed responsive UI components using React and JavaScript.</li>
+                        <li>Integrated frontend with backend services using REST APIs.</li>
+                        <li>Collaborated with team members to deliver user-friendly interfaces.</li>
+                        <li>Improved application performance and UI responsiveness.</li>
+                        <li>Followed clean coding practices and modular architecture.</li>
                     </ul>
 
                     <h4>Technologies & Tools</h4>
@@ -66,16 +62,66 @@ const Experience = () => {
                 </div>
             </div>
 
+            {/* SOFTPRO INDIA TRAINING */}
+            <div className="experience-card">
+                <div className="experience-header">
+                    <div className="company-icon">
+                        <i className="fa-solid fa-graduation-cap" />
+                    </div>
+                    <div className="role-info">
+                        <h3>AI/ML & Django Trainee</h3>
+                        <p className="company">Softpro India</p>
+                    </div>
+                    <div className="experience-meta">
+                        <p>
+                            <FaCalendarAlt /> 2025
+                        </p>
+                        <p>
+                            <FaMapMarkerAlt /> Lucknow
+                        </p>
+                    </div>
+                </div>
+
+                <div className="experience-body">
+                    <p>
+                        Completed professional training in Artificial Intelligence, Machine Learning,
+                        and Django backend development with hands-on project-based learning.
+                    </p>
+
+                    <h4>
+                        <FaCode /> Key Learning & Achievements
+                    </h4>
+                    <ul className="achievements">
+                        <li>Learned Django framework for backend web development.</li>
+                        <li>Implemented machine learning concepts in real-world scenarios.</li>
+                        <li>Worked on AI-based application development and problem solving.</li>
+                        <li>Understood database integration and backend architecture.</li>
+                        <li>Built intelligent applications combining AI and web technologies.</li>
+                    </ul>
+
+                    <h4>Technologies & Tools</h4>
+                    <div className="tech-stack">
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>Machine Learning</span>
+                        <span>AI Concepts</span>
+                        <span>PostgreSQL</span>
+                        <span>REST APIs</span>
+                    </div>
+                </div>
+            </div>
+
+
             <div className="whats-next">
                 <h3>What's Next?</h3>
                 <p>
                     Currently seeking opportunities to contribute to innovative projects
-                    and continue growing as a full-stack developer. I'm particularly
-                    interested in roles where I can work on cutting-edge technologies and
-                    make a meaningful impact.
+                    where I can apply my React frontend expertise along with Django and AI
+                    development skills to build impactful real-world applications.
                 </p>
             </div>
         </section>
+
     );
 };
 

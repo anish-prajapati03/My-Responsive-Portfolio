@@ -12,10 +12,10 @@ const Footer = () => {
             <div className="footer-content">
                 <div>
                     <h2 className="footer-title">
-                        <span className="highlight">Anish</span> Prajapati
+                        <span className="highlight">Anish</span> Prajapti
                     </h2>
                     <p className="footer-subtitle">
-                        Front-End Developer passionate about creating amazing web experiences
+                        Software Developer passionate about creating amazing web experiences
                     </p>
                 </div>
 
@@ -38,7 +38,7 @@ const Footer = () => {
             <hr />
 
             <div className="footer-bottom">
-                <p>© 2025 Anish Prajapati. All rights reserved.</p>
+                <p>© 2025 Anish Prajapti. All rights reserved.</p>
                 <p>
                     Made with <span className="heart">❤️</span> using React & Tailwind CSS
                 </p>
