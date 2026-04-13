@@ -6,27 +6,27 @@ const projects = [
         title: 'NaN_Bidder',
         description: 'A comprehensive auction platform featuring real-time bidding, user authentication, role-based access control, and live notifications. Built with modern web technologies for seamless user experience.',
         techStack: ['React', 'Node.js', 'MongoDB', 'Express', 'Socket.IO'],
-        icon: '⚡',
+        icon: '💸',
         codeLink: 'https://github.com/anish-prajapati03/Real-time-Auction-Platform.git',
         liveLink: 'https://nanbidders.netlify.app/',
         liveColor: 'orange'
     },
     {
-        title: 'Astra',
-        description: 'An intelligent voice assistant capable of processing natural language commands and providing real-time responses through API integrations. Features advanced voice recognition and NLP capabilities.',
-        techStack: ['React', 'NLP APIs', 'Voice Recognition'],
-        icon: '🎤',
-        codeLink: 'https://github.com/anish-prajapati03/Astra_virtual_assistant.git',
-        liveLink: 'https://astraxni.netlify.app/',
-        liveColor: 'pink'
+        title: 'AnixCartx',
+        description: 'Developed a full-stack e-commerce platform using React.js, Django, and Django REST Framework, featuring product browsing, cart management, JWT-based authentication, and secure checkout with responsive UI and seamless REST API integration.',
+        techStack: ['React.js', 'Django', 'Django REST Framework', 'JWT Authentication', 'REST APIs'],
+        icon: '🛒',
+        codeLink: 'https://github.com/anish-prajapati03/anixcart-backend.git',
+        liveLink: 'https://anixcartx.netlify.app/',
+        liveColor: 'blue'
     },
     {
         title: 'Weather App',
-        description: 'A modern weather forecasting application that provides real-time weather data, 5-day forecasts, and location-based weather updates. Features beautiful UI with dynamic backgrounds based on weather conditions.',
-        techStack: ['React', 'Weather API', 'Geolocation', 'CSS'],
-        icon: '☁️',
-        codeLink: 'https://github.com/anish-prajapati03/WeatherApp.git',
-        liveLink: 'https://weatherwebxni.netlify.app/',
+        description: 'A banking management system built using Python and OOP principles that enables users to create accounts, perform deposits/withdrawals, manage transactions, and handle account updates with secure data management.',
+        techStack: ['Python', 'Streamlit', 'OOP', 'JSON/File Handling', 'Exception Handling'],
+        icon: '🏦',
+        codeLink: 'https://github.com/anish-prajapati03/Bank-Management-System-OOP-in-Python-.git',
+        liveLink: 'https://anixbank.streamlit.app/',
         liveColor: 'skyblue'
     },
 

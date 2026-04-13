@@ -12,18 +12,18 @@ const Footer = () => {
             <div className="footer-content">
                 <div>
                     <h2 className="footer-title">
-                        <span className="highlight">Anish</span> Prajapti
+                        <span className="highlight">Anish</span> Prajapati
                     </h2>
                     <p className="footer-subtitle">
-                        Software Developer passionate about creating amazing web experiences
+                        Full-Stack & AI Developer passionate about building scalable web applications and intelligent digital experiences.
                     </p>
                 </div>
 
                 <div className="footer-icons">
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <a href="https://github.com/anish-prajapati03" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                         <FaGithub />
                     </a>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/in/anishprajapati03/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                         <FaLinkedin />
                     </a>
                 </div>
@@ -38,9 +38,9 @@ const Footer = () => {
             <hr />
 
             <div className="footer-bottom">
-                <p>© 2025 Anish Prajapti. All rights reserved.</p>
+                <p>© 2025 Anish Prajapati. All rights reserved.</p>
                 <p>
-                    Made with <span className="heart">❤️</span> using React & Tailwind CSS
+                    Made with <span className="heart"></span> using React & Tailwind CSS
                 </p>
             </div>
         </footer>

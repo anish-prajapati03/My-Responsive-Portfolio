@@ -25,7 +25,9 @@ const Skills = () => {
     return (
         <section id="skills" className="skills">
             <h2 className="skills-title">Skills & Technologies</h2>
-            <p className="skills-subtitle">Here are the technologies and tools I work with to bring ideas to life</p>
+            <p className="skills-subtitle">
+                Here are the technologies and tools I work with to bring ideas to life
+            </p>
 
             <div className="skills-container">
                 <div className="skills-box">
@@ -44,6 +46,16 @@ const Skills = () => {
                 </div>
 
                 <div className="skills-box">
+                    <h3>GenAI / AI</h3>
+                    <SkillBar name="Generative AI" percent={80} color="#8b5cf6" />
+                    <SkillBar name="LLMs" percent={78} color="#ec4899" />
+                    <SkillBar name="LangChain" percent={75} color="#14b8a6" />
+                    <SkillBar name="RAG" percent={75} color="#f97316" />
+                    <SkillBar name="AI Agents" percent={72} color="#6366f1" />
+                    <SkillBar name="Prompt Engineering" percent={85} color="#eab308" />
+                </div>
+
+                <div className="skills-box">
                     <h3>Database & Tools</h3>
                     <SkillBar name="MongoDB" percent={80} color="#22c55e" />
                     <SkillBar name="MySQL" percent={75} color="#3b82f6" />
@@ -52,7 +64,6 @@ const Skills = () => {
                 </div>
             </div>
 
-            {/* Also Working With Section */}
             <div className="other-skills-section">
                 <h3 className="other-skills-title">Also Working With</h3>
                 <div className="other-skills-container">

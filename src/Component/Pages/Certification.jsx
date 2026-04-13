@@ -37,7 +37,8 @@ const certifications = [
 
 const Certifications = () => {
     return (
-        <section className="certifications-section">
+        <section id="certifications" className="certifications-section">
+
             <h2 className="section-title">
                 Certifications <span>& Training</span>
             </h2>
@@ -93,10 +94,10 @@ const Certifications = () => {
             <div className="learning-note">
                 <h3>Continuous Learning</h3>
                 <p>
-                    My certifications from GeeksforGeeks and IBM SkillsBuild enhanced my skills in Django development and AI systems through
-                    practical, project-based learning, preparing me to build real-world intelligent applications.
+                    I continuously enhance my expertise through certifications from GeeksforGeeks and IBM SkillsBuild,
+                    gaining hands-on knowledge in Django development, Generative AI, ChatGPT, and intelligent system design
+                    to build scalable real-world web and AI-driven applications.
                 </p>
-
             </div>
         </section>
     );

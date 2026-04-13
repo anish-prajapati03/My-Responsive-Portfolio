@@ -23,6 +23,16 @@ const About = () => {
                     </p>
 
                     <p>
+                        Additionally, I have hands-on experience in <span className="highlight">Generative AI</span>,
+                        <span className="highlight"> Large Language Models (LLMs)</span>,
+                        <span className="highlight"> Retrieval-Augmented Generation (RAG)</span>,
+                        <span className="highlight"> LangChain</span>,
+                        <span className="highlight"> AI Agents</span>, and
+                        <span className="highlight"> Prompt Engineering</span>, enabling me to build intelligent AI-powered applications,
+                        agentic workflows, and context-aware automation systems.
+                    </p>
+
+                    <p>
                         I am passionate about combining modern web technologies with AI-driven solutions to build impactful applications.
                         When I'm not coding, I explore new technologies, strengthen my problem-solving skills, and work on innovative
                         projects that enhance real-world user experiences.
@@ -50,8 +60,10 @@ const About = () => {
                         <FaHeart className="about-icon" />
                         <div>
                             <h3>Passion</h3>
-                            <p>Building smart web applications with React, Django, and AI-driven solutions</p>
-
+                            <p>
+                                Building intelligent, scalable web applications by combining React, Django,
+                                Generative AI, and modern AI-driven technologies to create impactful real-world solutions.
+                            </p>
                         </div>
                     </div>
                 </div>
